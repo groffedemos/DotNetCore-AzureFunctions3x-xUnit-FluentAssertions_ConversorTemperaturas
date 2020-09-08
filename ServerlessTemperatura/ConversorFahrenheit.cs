@@ -31,6 +31,7 @@ namespace ServerlessTemperatura
                     return new OkObjectResult(
                         new
                         {
+                            Mensagem = "Muito obrigado por participar desta aula!",
                             Fahrenheit = tempFahrenheit,
                             Celsius = ConversorTemperatura.FahrenheitParaCelsius(tempFahrenheit)
                         });
