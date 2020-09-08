@@ -6,8 +6,7 @@ namespace ServerlessTemperatura
     {
         public static double FahrenheitParaCelsius(double temperatura)
         {
-            return (temperatura - 32) / 1.8; // Simulação proposital de falha
-            //return Math.Round((temperatura - 32) / 1.8, 2);
+            return Math.Round((temperatura - 32) / 1.8, 2);
         }
     }
 }
